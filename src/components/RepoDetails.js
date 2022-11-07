@@ -12,7 +12,7 @@ const handleClick = async (repoName) => {
 
   try {
     const result = await axios(
-      `https://api.github.com/repos/Sammylaw23/${repoName}`
+      `https://api.github.com/repos/ajoke-amupitan/${repoName}`
     );
   } catch (err) {
     console.log(err);

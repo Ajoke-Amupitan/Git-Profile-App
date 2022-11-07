@@ -15,7 +15,7 @@ const SearchBar = () => {
 
     try {
       const result = await axios(
-        `https://api.github.com/users/Sammylaw23/repos`
+        `https://api.github.com/users/ajoke-amupitan/repos`
       );
 
       setRepos(result);

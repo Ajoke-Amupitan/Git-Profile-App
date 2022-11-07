@@ -1,6 +1,5 @@
 import "./App.css";
 import SearchBar from "./components/SearchBar";
-import UserProfile from "./components/UserProfile";
 import Profile from "./components/Profile";
 
 function App() {

@@ -9,7 +9,7 @@ const Profile = () => {
     //console.log(searchInput);
 
     try {
-      const result = await axios(`https://api.github.com/users/Sammylaw23`);
+      const result = await axios(`https://api.github.com/users/ajoke-amupitan`);
 
       setRepos(result);
       console.log("Result: " + result);
