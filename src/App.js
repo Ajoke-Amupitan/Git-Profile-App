@@ -8,11 +8,18 @@ function App() {
       <div className="nav-content-container">
         <h1>GitHub Portfolio</h1>
       </div>
-      <div className="sidebar-content-container">
+       <div className="sidebar-content-container">
         <h1>Profile</h1>
-        <Profile />
+        {/* <Profile /> */}
+        <div className="avatar">
+        <img
+          src="https://avatars.githubusercontent.com/u/47615635?v=4"
+          alt="avatar"
+          width="150px"
+        />
       </div>
-      <div class="content-container">
+      </div>
+      <div className="content-container">
         <h1>Repositories</h1>
         <SearchBar />
       </div>

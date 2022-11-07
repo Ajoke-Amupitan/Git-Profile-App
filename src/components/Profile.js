@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import Results from "./Results";
 
 const Profile = () => {
   const [repos, setRepos] = useState([]);
@@ -25,13 +24,13 @@ const Profile = () => {
   console.log(repos);
   return (
     <>
-      <div className="avatar">
+      {/* <div className="avatar">
         <img
           src="https://avatars.githubusercontent.com/u/47615635?v=4"
           alt="avatar"
           width="150px"
         />
-      </div>
+      </div> */}
       <h3>Username: {repos.data.login}</h3>
       <h3>Created At: {repos.data.created_at}</h3>
       <h3>Repositories: {repos.data.public_repos}</h3>
